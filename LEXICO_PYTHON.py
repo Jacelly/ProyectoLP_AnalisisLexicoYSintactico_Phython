@@ -14,14 +14,12 @@ palabrasReservadas={
     'or':'OR',  #OK
     'upper':'UPPER',  #*
     'lower':'LOWER',  #*
-    'in':'IN',  #*
+    'in':'IN',  #OK
     'return':'RETURN',  #OK
-    'is':'IS',  #*
+    'is':'IS',  #OK
     'index':'INDEX',  #*
     'count':'COUNT',  #*
     'len':'LEN',  #OK
-    'startswith':'STARTSWITH',#*
-    'endwith':'ENDSWITH',#*
     'append':'APPEND',#OK
     'remove':'REMOVE',#*
     'min':'MIN',  #*
@@ -32,7 +30,8 @@ palabrasReservadas={
     'pop':'POP',#*
     'split':'SPLIT',#*
     'join':'JOIN',#*
-    'input':'INPUT' #OK
+    'input':'INPUT', #OK
+    'int' : 'INT'
 }
 # Lista de tokens
 tokens = [
@@ -134,3 +133,7 @@ lexer.input(data1)
   #  if not tok:
    #     break  #NO MAS ENTRADA
     #print(tok) #Formato: LexRoken(type, value, lineno, lexpos)
+
+
+
+
