@@ -43,19 +43,15 @@ else:
     print("Su pago es:", (diurnas * d))
 
 # Ejercicio 6
-print("Claculo de horas extras")
-valorxHora = float(input("ingrese el valor por hora a pagar: "))
-horas = int(input("Ingrese las horas que trabajo a la semana: "))
-extras = 0
-if horas <= 40:
-    print("No tiene horas extras, su sueldo es:", horas * valorxHora)
+#"6.Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que
+#cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal
+horas = int(input("Cuantas horas ha trabajado: "))
+if horas == 40:
+    print("No tiene pago de horas extras")
 else:
-    extras = horas - 40
-    if extras <= 8:
-        print("Tiene", extras, "horas extras, su sueldo es:", (horas * valorxHora) + (extras * (valorxHora * 2)))
-    else:
-        print("Tiene", extras, "horas extras, su sueldo es:",
-              (horas * valorxHora) + (8 * (valorxHora * 2)) + ((extras - 8) * (valorxHora * 2)))
+    horasExtras = horas-40
+    print("Ha trabajado ",horasExtras," de horas extras")
+    print("Su pago es de: ",horasExtras*2)
 
 #Ejercicio 7
 def area(radio):

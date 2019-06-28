@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a0e69c-3388-4ca8-b17d-5f171a6674a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProyectoLP_AnalisisLexicoYSintactico_Phython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoLP_AnalisisLexicoYSintactico_Phython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejerciciosPropuestos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosPropuestos.py" afterDir="false" />
     </list>
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="140" lean-forward="true" selection-start-line="10" selection-start-column="140" selection-end-line="10" selection-end-column="140" />
+            <state relative-caret-position="120">
+              <caret line="8" column="277" selection-start-line="8" selection-start-column="277" selection-end-line="8" selection-end-column="277" />
             </state>
           </provider>
         </entry>
@@ -49,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ejercicios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -80,8 +77,8 @@
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
         <option value="$PROJECT_DIR$/SINTACTICO_PYTHON.py" />
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
-        <option value="$PROJECT_DIR$/ejercicios.py" />
         <option value="$PROJECT_DIR$/ejerciciosPropuestos.py" />
+        <option value="$PROJECT_DIR$/ejercicios.py" />
       </list>
     </option>
   </component>
@@ -345,15 +342,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="140" lean-forward="true" selection-start-line="10" selection-start-column="140" selection-end-line="10" selection-end-column="140" />
+        <state relative-caret-position="120">
+          <caret line="8" column="277" selection-start-line="8" selection-start-column="277" selection-end-line="8" selection-end-column="277" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
         </state>
       </provider>
     </entry>

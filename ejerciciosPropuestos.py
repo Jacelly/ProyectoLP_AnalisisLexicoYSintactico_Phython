@@ -6,7 +6,7 @@ ejercicios=["1.	Escribe un programa que pida la nota de un estudiante y diga que
             "5.	Los empleados de una fábrica trabajan en turno diurno. Se desea calcular el jornal diario de acuerdo con los siguientes puntos: "
             "\n•La tarifa de horas diurnas es de $40. "
             "\n•Caso de ser Domingo, la tarifa se incrementará en $100 en el turno diurno",
-            "6.	Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal cuando no exceden de 8; si las horas extras exceden de 8 se pagan las primeras 8 al doble de lo que se pagan las horas normales y el resto al triple.",
+            "6.	Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal.",
             "7. EScriba una función que dado un radio calcule el area de un circulo, dado su radio",
             "8. Escriba una función que dado un dividendo y un divisor devuelva su división pero si el divisor es cero retorne 'No se puede'"]
 
