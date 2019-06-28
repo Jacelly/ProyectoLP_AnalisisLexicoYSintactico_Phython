@@ -39,6 +39,10 @@ def p_declaracion_expr(t):#ok
                 | append
                 | len
                 | input
+                | in
+                | is
+                | join
+                | int
     '''
     print("prueba2")
     t[0] = t[1]
@@ -249,7 +253,7 @@ def p_expr_def_funcion(t): #OK
   #  print("prueba18")
    # t[0]=t[3]
 
-def p_expr_return(t):
+def p_expr_return(t):   #OK
     """expr_return : RETURN variable"""
     print("prueba19")
     t[0]=t[2]
@@ -324,20 +328,6 @@ def p_expr_append(t): #OK
     print("prueba23")
     t[0] = ('APPEND')
 
-def p_expr_upper(t):
-    '''
-    upper : VARIABLE APARENT CPARENT
-    '''
-    print("prueba24")
-    t[0] = t[1].upper()
-
-def p_expr_lower(t):
-    '''
-    lower : VARIABLE APARENT CPARENT
-    '''
-    print("prueba25")
-    t[0] = t[1].lower()
-
 def p_expr_in(t):
     '''
     in : IN
@@ -360,6 +350,23 @@ def p_input(t): #OK
     '''
     t[0]=('INPUT')
     print("prueba28")
+def p_in(t): #OK
+    '''
+    in : VARIABLE in declaracion
+         |  NUMERO in declaracion
+         | FLOTANTE in declaracion
+         | expresion in declaracion
+    '''
+    print("prueba30")
+    t[0]=('IN')
+def p_is(t): #OK
+    '''
+    is : VARIABLE IS NUMERO
+         | VARIABLE  IS FLOTANTE
+         | VARIABLE  IS declaracion
+    '''
+    print("prueba31")
+    t[0]=('IS')
 def p_join(t):
     '''
     join : SIMPLECOMILLA VARIABLE SIMPLECOMILLA PUNTO JOIN APARENT VARIABLE CPARENT
@@ -367,6 +374,27 @@ def p_join(t):
     '''
     print("prueba29")
     t[0]=('JOIN')
+def p_int(t): #OK
+    '''
+    int : INT APARENT expresion  CPARENT
+        | INT APARENT input  CPARENT
+    '''
+    t[0]=t[1]
+
+def p_expr_upper(t):
+    '''
+    upper : VARIABLE APARENT CPARENT
+    '''
+    print("prueba24")
+    t[0] = t[1].upper()
+
+def p_expr_lower(t):
+    '''
+    lower : VARIABLE APARENT CPARENT
+    '''
+    print("prueba25")
+    t[0] = t[1].lower()
+
 def p_error(t):
     if t:
         resultado = "Error sintactico de tipo {} en el valor {}".format( str(t.type),str(t.value))
@@ -402,4 +430,8 @@ def analisisSintacticof(texto):
         return cadena, True
     else:
         return cadena,False
+
+
+ 
+
 
