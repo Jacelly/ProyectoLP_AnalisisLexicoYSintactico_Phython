@@ -31,7 +31,7 @@ palabrasReservadas={
     'split':'SPLIT',#*
     'join':'JOIN',#*
     'input':'INPUT', #OK
-    'int' : 'INT'
+    'int' : 'INT'   #OK
 }
 # Lista de tokens
 tokens = [
@@ -56,10 +56,10 @@ def t_NUMERO(t):    #OK
     t.value = int(t.value)
     return t
 def t_CADENACOMILLADOBLE(t): #OK
-   r'\"[\w|\ ]+[\.][\:][\w*|\d*|\+*|\ *|\,*|\-*|\:*|\ *]*\"'
+   r'\"[\w|\ ]+[\w*|\d*|\+*|\ *|\,*|\-*|\:*|\ *]*\"'
    return t
 def t_CADENACOMILLASIMPLE(t): #OK
-   r'\'[\w|\ ]+[\.][\:][\w*|\d*|\+*|\ *|\,*|\-*|\:*|\ *]*\''
+   r'\'[\w|\ ]+[\w*|\d*|\+*|\ *|\,*|\-*|\:*|\ *]*\''
    return t
 
 #TOKENS
@@ -133,7 +133,3 @@ lexer.input(data1)
   #  if not tok:
    #     break  #NO MAS ENTRADA
     #print(tok) #Formato: LexRoken(type, value, lineno, lexpos)
-
-
-
-

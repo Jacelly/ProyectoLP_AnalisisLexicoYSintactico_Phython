@@ -43,6 +43,8 @@ def p_declaracion_expr(t):#ok
                 | is
                 | join
                 | int
+                | upper
+                | lower
     '''
     print("prueba2")
     t[0] = t[1]
@@ -381,16 +383,16 @@ def p_int(t): #OK
     '''
     t[0]=t[1]
 
-def p_expr_upper(t):
+def p_expr_upper(t): #OK
     '''
-    upper : VARIABLE APARENT CPARENT
+    upper : VARIABLE PUNTO UPPER APARENT CPARENT
     '''
     print("prueba24")
     t[0] = t[1].upper()
 
-def p_expr_lower(t):
+def p_expr_lower(t): #OK
     '''
-    lower : VARIABLE APARENT CPARENT
+    lower : VARIABLE PUNTO LOWER APARENT CPARENT
     '''
     print("prueba25")
     t[0] = t[1].lower()
@@ -432,6 +434,6 @@ def analisisSintacticof(texto):
         return cadena,False
 
 
- 
+
 
 
