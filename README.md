@@ -1,2 +1,2 @@
 # ProyectoLP_AnalisisLexicoYSintactico_Phython
-Integrantes: Jimmy Cell ,Pablo Delgado , Eileen Sanchez
+Integrantes: Jimmy Celly ,Palo Delgado , Eileen Sanchez
