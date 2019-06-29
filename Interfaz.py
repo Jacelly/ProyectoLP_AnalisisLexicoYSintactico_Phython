@@ -8,7 +8,7 @@ from LEXICO_PYTHON import *
 
 from ejerciciosPropuestos import *
 raiz = Tk()
-contador = 0
+n = 0
 
 
 raiz.geometry("1200x750")
@@ -36,17 +36,19 @@ def ejecutar():
     analisisSintactico.set(str(isCorrect))
     if isCorrect:
         retroalimentacion.set("CODIGO CORRECTO")
+        btnNext.place(x=550,y=380)
     else:
-        retroalimentacion.set("CODIGO ERRONEO")
+        retroalimentacion.set("CODIGO ERRONEO\nEl código podría ser:\n"+ejerciciosResueltos[n])
+        btnNext.place_forget()
 
 
 
-ttk.Button(raiz, text='EXAMINAR', command=ejecutar).place(x=550,y=350)
+btnExaminer = ttk.Button(raiz, text='EXAMINAR', command=ejecutar)
+btnExaminer.place(x=550,y=350)
 
-n =0
 
 def siguiente():
-    retroalimentacion.set("")
+    retroalimentacion.set("RETROALIMENTACION")
     ingresoCodigo.delete('1.0', 'end+1c')
     analisisLexico.set("ANALISIS LEXICO")
     analisisSintactico.set("ANALISIS SINTACTICO")
@@ -54,8 +56,12 @@ def siguiente():
     n+=1
     if n < len(ejercicios):
         problema.set(ejercicios[n])
+        btnNext.place_forget()
     else:
-        problema.set("SIGUIENTE NIVEL")
+        problema.set("FELICIDADES\nHas acabado todos los niveles.")
+        btnExaminer.place_forget()
+        btnNext.place_forget()
+
 def obtenerCodigo():
     codigo = ingresoCodigo.get('1.0', 'end+1c')
     print(codigo)
@@ -74,17 +80,19 @@ analisisSintactico.set("ANALISIS SINTACTICO")
 sintactico = tkinter.Label(raiz, textvariable=analisisSintactico ,wraplength=1000)
 
 lexico.place(x=90,y=280,height=240,width=400)
-lexico.config(font=("Arial",7))
+lexico.config(font=("Arial",8))
 sintactico.place(x=710,y=280,height=240,width=400)
-sintactico.config(font=("Arial",7))
+sintactico.config(font=("Arial",10))
 
 retroalimentacion = StringVar()
-retroalimentacion.set("retroalimentacion")
+retroalimentacion.set("RETROALIMENTACION")
 correccion = tkinter.Label(raiz, textvariable=retroalimentacion)
-correccion.config(font=("Arial",7))
+correccion.config(font=("Arial",8))
 
 correccion.place(x=400,y=530,height=150,width=400)
-ttk.Button(raiz, text='SIGUIENTE', command=siguiente).place(x=550,y=380)
+btnNext = ttk.Button(raiz, text='SIGUIENTE', command=siguiente)
+btnNext.place(x=550,y=380)
+btnNext.place_forget()
 
 
 raiz.configure(bg = 'lightblue')

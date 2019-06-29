@@ -43,8 +43,6 @@ else:
     print("Su pago es:", (diurnas * d))
 
 # Ejercicio 6
-#"6.Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que
-#cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal
 horas = int(input("Cuantas horas ha trabajado: "))
 if horas == 40:
     print("No tiene pago de horas extras")

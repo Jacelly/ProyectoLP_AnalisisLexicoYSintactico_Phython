@@ -11,3 +11,11 @@ ejercicios=["1.	Escribe un programa que pida la nota de un estudiante y diga que
             "8. Escriba una función que dado un dividendo y un divisor devuelva su división pero si el divisor es cero retorne 'No se puede'"]
 
 
+ejerciciosResueltos = ["nota = int(input('Ingrese nota: '))\nif nota >= 6:\nprint('Aprobado')\nelse:\nprint('Reprobado')",
+                       "edad = int(input('¿Cuál es tu edad?'))\nif edad < 18:\nprint ('Eres menor de edad.')\nelse:print('Eres mayor de edad.')",
+                       "entrada = 5.50\nprint('Tipo de cliente')\nprint('1. niños de 0 - 5')\nprint('2. niños de 6 - 12')\ntipo = input('Elija tipo de cliente: ')\nif tipo == '1':\nprint('Los niños menores a 5 no pagan')\nelse:\nprint('Costo de la entrada es:', entrada * .5)",
+                       "num = int(input('Ingrese un numero: '))\nif num%2 == 0:\nprint('Es numero par.')\nelse:print('Es numero impar.')",
+                       "print('Calcular jornal diario de empleados')\nd = 40\ndomingo = input('Es domingo? s/n')\ndiurnas = int(input('Cuantas horas trabajo en turno diurno?'))\nif domingo == 's':\nprint('Trabajo', diurnas, 'horas diurnas')\nprint('Su pago es:', (diurnas * (d + 100)))\nelse:\nprint('Trabajo', diurnas, 'horas diurnas')\nprint('Su pago es:', (diurnas * d))",
+                       "horas = int(input('Cuantas horas ha trabajado: '))\nif horas == 40:\nprint('No tiene pago de horas extras')\nelse:\nhorasExtras = horas-40\nprint('Ha trabajado ',horasExtras,' de horas extras')\nprint('Su pago es de: ',horasExtras*2)",
+                       "def area(radio):\narea = radio*3.14159\nprint('El área del circulo es: ',area)",
+                       "def division(num1,num2):\ndivision = num1/num2\nif num2 == 0:\nreturn 'No se puede'\nelse:\nreturn division"]
