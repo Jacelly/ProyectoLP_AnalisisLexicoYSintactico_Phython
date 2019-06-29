@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a0e69c-3388-4ca8-b17d-5f171a6674a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ProyectoLP_AnalisisLexicoYSintactico_Phython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoLP_AnalisisLexicoYSintactico_Phython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejerciciosPropuestos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosPropuestos.py" afterDir="false" />
     </list>
@@ -18,31 +14,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
+        <entry file="file://$PROJECT_DIR$/ejercicios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="20" column="116" selection-start-line="20" selection-start-column="116" selection-end-line="20" selection-end-column="116" />
+            <state relative-caret-position="233">
+              <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Interfaz.py">
+        <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="279">
+              <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejercicios.py">
+        <entry file="file://$PROJECT_DIR$/Interfaz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="59" selection-start-line="59" selection-end-line="64" selection-end-column="23" />
+            <state relative-caret-position="-735">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Interfaz">
+  <component name="RunManager" selected="Python.ejercicios">
     <configuration name="Interfaz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectoLP_AnalisisLexicoYSintactico_Phython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,8 +241,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Interfaz" />
         <item itemvalue="Python.ejercicios" />
+        <item itemvalue="Python.Interfaz" />
         <item itemvalue="Python.SINTACTICO_PYTHON" />
         <item itemvalue="Python.LEXICO_PYTHON" />
         <item itemvalue="Python.SINTACTICO_PYTHON (2)" />
@@ -310,27 +306,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parser.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsetab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-735">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="59" selection-start-line="59" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="233">
+          <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="116" selection-start-line="20" selection-start-column="116" selection-end-line="20" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="279">
+          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,9 @@ ejercicios=["1.	Escribe un programa que pida la nota de un estudiante y diga que
             "\n•Caso de ser Domingo, la tarifa se incrementará en $100 en el turno diurno",
             "6.	Determinar la cantidad de dinero que recibirá un trabajador por concepto de las horas extras trabajadas en una empresa, sabiendo que cuando las horas de trabajo exceden de 40, el resto se consideran horas extras y que estas se pagan al doble de una hora normal.",
             "7. EScriba una función que dado un radio calcule el area de un circulo, dado su radio",
-            "8. Escriba una función que dado un dividendo y un divisor devuelva su división pero si el divisor es cero retorne 'No se puede'"]
+            "8. Escriba una función que dado un dividendo y un divisor devuelva su división pero si el divisor es cero retorne 'No se puede'",
+            "9. Escriba un programa que determine si el 19 es número primo",
+            "10. Escriba una funcion que agregue un elemento a una lista"]
 
 
 ejerciciosResueltos = ["nota = int(input('Ingrese nota: '))\nif nota >= 6:\nprint('Aprobado')\nelse:\nprint('Reprobado')",
@@ -18,4 +20,6 @@ ejerciciosResueltos = ["nota = int(input('Ingrese nota: '))\nif nota >= 6:\nprin
                        "print('Calcular jornal diario de empleados')\nd = 40\ndomingo = input('Es domingo? s/n')\ndiurnas = int(input('Cuantas horas trabajo en turno diurno?'))\nif domingo == 's':\nprint('Trabajo', diurnas, 'horas diurnas')\nprint('Su pago es:', (diurnas * (d + 100)))\nelse:\nprint('Trabajo', diurnas, 'horas diurnas')\nprint('Su pago es:', (diurnas * d))",
                        "horas = int(input('Cuantas horas ha trabajado: '))\nif horas == 40:\nprint('No tiene pago de horas extras')\nelse:\nhorasExtras = horas-40\nprint('Ha trabajado ',horasExtras,' de horas extras')\nprint('Su pago es de: ',horasExtras*2)",
                        "def area(radio):\narea = radio*3.14159\nprint('El área del circulo es: ',area)",
-                       "def division(num1,num2):\ndivision = num1/num2\nif num2 == 0:\nreturn 'No se puede'\nelse:\nreturn division"]
+                       "def division(num1,num2):\ndivision = num1/num2\nif num2 == 0:\nreturn 'No se puede'\nelse:\nreturn division",
+                       "if 19%2 == 0:\nprint('No es numero primo')\nelse:\nprint('Si es numero primo')",
+                       "def append(list,element):\nlist.append(element)\nreturn list"]

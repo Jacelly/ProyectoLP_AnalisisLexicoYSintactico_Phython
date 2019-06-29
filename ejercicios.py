@@ -63,3 +63,14 @@ def division(num1,num2):
         return "No se puede"
     else:
         return division
+
+#Ejercicio 9
+if 19%2 == 0:
+    print("No es numero primo")
+else:
+    print("Si es numero primo")
+
+#Ejercicio 10
+def append(list,element):
+    list.append(element)
+    return list
