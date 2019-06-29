@@ -21,6 +21,7 @@ def p_declaracion_asignar(t):#ok
     '''
     declaracion : VARIABLE ASIGNACION expresion
                     | VARIABLE ASIGNACION declaracion
+                    | VARIABLE ASIGNACION FLOTANTE
     '''
     print("prueba1")
     t[0] = (t[1],t[3])
@@ -108,7 +109,52 @@ def p_expresion_operaciones_str(t):#ok
     elif t[2] == '**' and  type(t[1]) == str:
         t[0] = t[1] +'**'+t[3]
 
-
+def p_expresion_operaciones_str_int(t):#ok
+    '''
+    expresion  :   VARIABLE MAS expresion
+                |   VARIABLE MENOS expresion
+                |   VARIABLE POR expresion
+                |   VARIABLE DIVIDIR expresion
+                |   VARIABLE POTENCIA expresion
+                |   VARIABLE MODULO expresion
+                |   VARIABLE POR PUNTO NUMERO
+                |   VARIABLE POR PUNTO FLOTANTE
+    '''
+    print("ooooooo")
+    if t[2] == '+' and  type(t[1]) == str:
+        t[0] = t[1] +'+'+ str(t[3])
+    elif t[2] == '-' and  type(t[1]) == str:
+        t[0] = t[1] +'-'+str(t[3])
+    elif t[2] == '*' and  type(t[1]) == str:
+        t[0] = t[1] +'*'+str(t[3])
+    elif t[2] == '/' and  type(t[1]) == str:
+        t[0] = t[1] +'/'+str(t[3])
+    elif t[2] == '%' and  type(t[1]) == str:
+        t[0] = t[1] +'%'+str(t[3])
+    elif t[2] == '**' and  type(t[1]) == str:
+        t[0] = t[1] +'**'+str(t[3])
+def p_expresion_operaciones_int_str(t):#ok
+    '''
+    expresion  :   expresion MAS VARIABLE
+                |   expresion MENOS VARIABLE
+                |   expresion POR VARIABLE
+                |   expresion DIVIDIR VARIABLE
+                |   expresion POTENCIA VARIABLE
+                |   expresion MODULO VARIABLE
+    '''
+    print("uuuuuuu")
+    if t[2] == '+' and  type(t[1]) == str:
+        t[0] = str(t[1]) +'+'+ t[3]
+    elif t[2] == '-' and  type(t[1]) == str:
+        t[0] = str(t[1]) +'-'+t[3]
+    elif t[2] == '*' and  type(t[1]) == str:
+        t[0] = str(t[1]) +'*'+t[3]
+    elif t[2] == '/' and  type(t[1]) == str:
+        t[0] = str(t[1]) +'/'+t[3]
+    elif t[2] == '%' and  type(t[1]) == str:
+        t[0] = str(t[1]) +'%'+t[3]
+    elif t[2] == '**' and  type(t[1]) == str:
+        t[0] = str(t[1]) +'**'+t[3]
 # PRECEDENCIA DE OPERACIONES ARITMETICAS EN LAS CUALES SE RESPETAN LAS OPERACIONES  Y EL SIGNO NEGTIVO
 def p_expresion_uminus(t):#ok
     'expresion : MENOS expresion %prec UMINUS'
@@ -238,12 +284,16 @@ def p_expresion_booleana(t):
     else:
         t[0] = False
 
-    #NUMERO
+#NUMERO
 def p_expresion_numero(t): #OK
     'expresion : NUMERO'
     print("prueba8")
     t[0] = t[1]
-
+#FLOTANTE
+def p_expresion_flotante(t): #OK
+    'expresion : FLOTANTE'
+    print("prueba89")
+    t[0] = t[1]
 #CADENA
 def p_expresion_cadena(t):#OK
     """expresion : CADENACOMILLADOBLE
@@ -300,7 +350,10 @@ def p_lista(t): #OK
     t[0]=('LISTA')
 
 def p_expr_def_funcion(t): #OK
-    """expr_def_funcion : DEF expr_funcion DOSPUNTOS"""
+    """expr_def_funcion : DEF expr_funcion DOSPUNTOS codigo_interno
+                        | DEF expr_funcion DOSPUNTOS codigo_interno codigo_interno
+
+    """
     print("prueba16")
     t[0]=('FUNCION')
 
@@ -380,11 +433,12 @@ def p_expr_print(t): #OK
                    | PRINT APARENT expresion COMA FLOTANTE CPARENT
                    | PRINT APARENT expresion COMA VARIABLE CPARENT
                    | PRINT APARENT expresion COMA expresion CPARENT
+                   | PRINT APARENT expresion COMA VARIABLE COMA expresion CPARENT
     '''
     print("prueba22")
     if (len(t) == 5):
         t[0] = t[3]
-    elif (len(t) == 7):
+    elif (len(t) == 7 ):
         t[0] = (t[3], t[5])
 
 def p_expr_append(t): #OK

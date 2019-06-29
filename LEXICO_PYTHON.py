@@ -56,10 +56,10 @@ def t_NUMERO(t):    #OK
     t.value = int(t.value)
     return t
 def t_CADENACOMILLADOBLE(t): #OK
-   r'\"[\w|\ ]+[\w*|\d*|\+*|\ *|\,*|\-*|\:*|\ *]*\"'
+   r'\"[\w|\ ]+[\w*|\d*|\+*|\ *|\,*|\-*|\:*|\.*|\ *]*\"'
    return t
 def t_CADENACOMILLASIMPLE(t): #OK
-   r'\'[\w|\ ]+[\w*|\d*|\+*|\ *|\,*|\-*|\:*|\ *]*\''
+   r'\'[\w|\ ]+[\w*|\d*|\+*|\ *|\,*|\-*|\:*|\.*|\ *]*\''
    return t
 
 #TOKENS
