@@ -2,30 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a0e69c-3388-4ca8-b17d-5f171a6674a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ejercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejerciciosPropuestos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejerciciosPropuestos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProyectoLP_AnalisisLexicoYSintactico_Phython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectoLP_AnalisisLexicoYSintactico_Phython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SINTACTICO_PYTHON.py" beforeDir="false" afterPath="$PROJECT_DIR$/SINTACTICO_PYTHON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.out" beforeDir="false" afterPath="$PROJECT_DIR$/parser.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsetab.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsetab.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="215" column="32" selection-start-line="215" selection-start-column="32" selection-end-line="215" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ejerciciosPropuestos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -34,20 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py">
+      <file leaf-file-name="ejercicios.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ejercicios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1372">
-              <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
+            <state relative-caret-position="389">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ejercicios.py">
+      <file leaf-file-name="SINTACTICO_PYTHON.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SINTACTICO_PYTHON.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state relative-caret-position="407">
+              <caret line="475" column="20" selection-start-line="475" selection-start-column="20" selection-end-line="475" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,10 +71,10 @@
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/ejercicios.py" />
         <option value="$PROJECT_DIR$/LEXICO_PYTHON.py" />
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
-        <option value="$PROJECT_DIR$/SINTACTICO_PYTHON.py" />
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
         <option value="$PROJECT_DIR$/ejerciciosPropuestos.py" />
         <option value="$PROJECT_DIR$/ejercicios.py" />
+        <option value="$PROJECT_DIR$/SINTACTICO_PYTHON.py" />
       </list>
     </option>
   </component>
@@ -95,14 +91,15 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="170" />
     <option name="y" value="120" />
-    <option name="width" value="1027" />
-    <option name="height" value="557" />
+    <option name="width" value="1029" />
+    <option name="height" value="559" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SINTACTICO_PYTHON (2)">
+  <component name="RunManager" selected="Python.Interfaz">
     <configuration name="Interfaz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectoLP_AnalisisLexicoYSintactico_Phython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,9 +148,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="LEXICO_PYTHON (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectoLenguajes" />
@@ -163,40 +156,34 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/ProyectoLenguajes" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="SINTACTICO_PYTHON (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProyectoLenguajes" />
+    <configuration name="LEXICO_PYTHON" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProyectoLP_AnalisisLexicoYSintactico_Phython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LEXICO_PYTHON.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="SINTACTICO_PYTHON (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectoLenguajes" />
@@ -205,19 +192,16 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/PycharmProjects/ProyectoLenguajes" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="SINTACTICO_PYTHON" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectoLP_AnalisisLexicoYSintactico_Phython" />
@@ -236,24 +220,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Interfaz" />
       <item itemvalue="Python.SINTACTICO_PYTHON" />
-      <item itemvalue="Python.SINTACTICO_PYTHON (1)" />
       <item itemvalue="Python.SINTACTICO_PYTHON (2)" />
       <item itemvalue="Python.LEXICO_PYTHON (1)" />
+      <item itemvalue="Python.LEXICO_PYTHON" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SINTACTICO_PYTHON (2)" />
         <item itemvalue="Python.Interfaz" />
         <item itemvalue="Python.SINTACTICO_PYTHON" />
+        <item itemvalue="Python.LEXICO_PYTHON" />
+        <item itemvalue="Python.SINTACTICO_PYTHON (2)" />
         <item itemvalue="Python.LEXICO_PYTHON (1)" />
-        <item itemvalue="Python.SINTACTICO_PYTHON (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -271,29 +252,50 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24869695" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3272727" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2485129" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32689655" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="277" selection-start-line="8" selection-start-column="277" selection-end-line="8" selection-end-column="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LEXICO_PYTHON.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -310,36 +312,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SINTACTICO_PYTHON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2211">
-          <caret line="190" column="32" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="215" column="32" selection-start-line="215" selection-start-column="32" selection-end-line="215" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/ejercicios.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/ejercicios.py" />
     <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -349,8 +324,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="389">
           <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SINTACTICO_PYTHON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="475" column="20" selection-start-line="475" selection-start-column="20" selection-end-line="475" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -59,7 +59,7 @@ def p_boolean(t):#ok
     t[0] = t[1]
 
 #EXPRESIONES ARITMETICAS
-def p_expresion_operaciones(t):#ok
+def p_expresion_operaciones_int(t):#ok
     '''
     expresion  :   expresion MAS expresion
                 |   expresion MENOS expresion
@@ -85,6 +85,29 @@ def p_expresion_operaciones(t):#ok
         while i > 1:
             t[0] *= t[1]
             i -= 1
+def p_expresion_operaciones_str(t):#ok
+    '''
+    expresion  :   VARIABLE MAS VARIABLE
+                |   VARIABLE MENOS VARIABLE
+                |   VARIABLE POR VARIABLE
+                |   VARIABLE DIVIDIR VARIABLE
+                |   VARIABLE POTENCIA VARIABLE
+                |   VARIABLE MODULO VARIABLE
+    '''
+    print("ccccccc")
+    if t[2] == '+' and  type(t[1]) == str:
+        t[0] = t[1] +'+'+ t[3]
+    elif t[2] == '-' and  type(t[1]) == str:
+        t[0] = t[1] +'-'+t[3]
+    elif t[2] == '*' and  type(t[1]) == str:
+        t[0] = t[1] +'*'+t[3]
+    elif t[2] == '/' and  type(t[1]) == str:
+        t[0] = t[1] +'/'+t[3]
+    elif t[2] == '%' and  type(t[1]) == str:
+        t[0] = t[1] +'%'+t[3]
+    elif t[2] == '**' and  type(t[1]) == str:
+        t[0] = t[1] +'**'+t[3]
+
 
 # PRECEDENCIA DE OPERACIONES ARITMETICAS EN LAS CUALES SE RESPETAN LAS OPERACIONES  Y EL SIGNO NEGTIVO
 def p_expresion_uminus(t):#ok
@@ -103,7 +126,47 @@ def p_expresion_grupo(t):#ok
     t[0] = t[2]
 
 # EXPRESIONES COMPARACION
-def p_expresion_logicas(t):#ok
+def p_expresion_logicas_str(t):#ok
+    '''
+    expresion   :  VARIABLE MENOR expresion
+                |  VARIABLE MAYOR expresion
+                |  VARIABLE MENORIGUAL expresion
+                |  VARIABLE MAYORIGUAL expresion
+                |  VARIABLE DOBLEIGUAL expresion
+                |  VARIABLE DIFERENTE expresion
+                |  APARENT VARIABLE CPARENT MENOR APARENT expresion CPARENT
+                |  APARENT VARIABLE CPARENT MAYOR APARENT expresion CPARENT
+                |  APARENT VARIABLE CPARENT MENORIGUAL APARENT expresion CPARENT
+                |  APARENT  VARIABLE CPARENT MAYORIGUAL APARENT expresion CPARENT
+                |  APARENT  VARIABLE CPARENT DOBLEIGUAL APARENT expresion CPARENT
+                |  APARENT  VARIABLE CPARENT DIFERENTE APARENT expresion CPARENT
+    '''
+    print("aaaaaaaaaaaa")
+    if t[2] == "<" and  type(t[1]) == str:
+        t[0] =  t[2]
+    elif t[2] == ">" and  type(t[1]) == str:
+        t[0] = t[2]
+    elif t[2] == "<=" and  type(t[1]) == str:
+        t[0] = t[2]
+    elif t[2] == ">=" and  type(t[1]) == str:
+        t[0] = t[2]
+    elif t[2] == "==" and  type(t[1]) == str:
+        t[0] = t[2]
+    elif t[2] == "!=" and  type(t[1]) == str:
+        t[0] = t[2]
+    elif t[4] == "<" and  type(t[2]) == str:
+        t[0] = t[4]
+    elif t[4] == ">" and  type(t[2]) == str:
+        t[0] = t[4]
+    elif t[4] == "<=" and  type(t[2]) == str:
+        t[0] = t[4]
+    elif t[4] == ">=" and  type(t[2]) == str:
+        t[0] = t[4]
+    elif t[4] == "==" and  type(t[2]) == str:
+        t[0] = t[4]
+    elif t[4] == "!=" and  type(t[2]) == str:
+        t[0] =t[4]
+def p_expresion_logicas_int(t):#ok
     '''
     expresion   :  expresion MENOR expresion
                 |  expresion MAYOR expresion
@@ -119,6 +182,7 @@ def p_expresion_logicas(t):#ok
                 |  APARENT  expresion CPARENT DIFERENTE APARENT expresion CPARENT
     '''
     print("bbbbbbbbb")
+
     if t[2] == "<":
         t[0] = t[1] < t[3]
     elif t[2] == ">":
@@ -127,9 +191,9 @@ def p_expresion_logicas(t):#ok
         t[0] = t[1] <= t[3]
     elif t[2] == ">=":
         t[0] = t[1] >= t[3]
-    elif t[2] == "==":
+    elif t[2] == "==" :
         t[0] = t[1] == t[3]
-    elif t[2] == "!=":
+    elif t[2] == "!=" :
         t[0] = t[1] != t[3]
     elif t[4] == "<":
         t[0] = t[2] < t[6]
@@ -143,6 +207,7 @@ def p_expresion_logicas(t):#ok
         t[0] = t[2] == t[6]
     elif t[4] == "!=":
         t[0] = t[2] != t[4]
+
 
 # EXPRESIONES LOGICAS
 def p_expresion_booleana(t):
@@ -189,9 +254,9 @@ def p_expresion_cadena(t):#OK
 
 #NOMBRE VARIABLE
 #def p_expresion_nombre_Variable(t):
- #   'expresion : VARIABLE'
-  #  print("prueba10")
-   # t[0] = t[1]
+    #'expresion : VARIABLE'
+    #print("prueba10")
+   #t[0] = t[1]
 
 #EXPRESIONES PARA DEFINIR FUNCIONES
 #RECUERDA: MAYUSCULAS TOKENS Y PALABRAS RESERVADAS, Y minusculas EXPRESIONES POR DEFINIR SU BNF
@@ -281,6 +346,7 @@ def p_if(t):
        | IF APARENT expresion CPARENT DOSPUNTOS codigo_interno ELIF APARENT expresion CPARENT DOSPUNTOS codigo_interno
        | IF expresion DOSPUNTOS codigo_interno ELIF expresion DOSPUNTOS codigo_interno
        | IF expresion DOSPUNTOS codigo_interno ELIF expresion DOSPUNTOS codigo_interno ELIF expresion DOSPUNTOS codigo_interno ELIF expresion DOSPUNTOS codigo_interno ELSE DOSPUNTOS codigo_interno
+
     """
     print("prueba21")
     if(len(t)==7):
