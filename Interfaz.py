@@ -56,7 +56,7 @@ def siguiente():
     n+=1
     if n < len(ejercicios):
         problema.set(ejercicios[n])
-        btnNext.place_forget()
+        #btnNext.place_forget()
     else:
         problema.set("FELICIDADES\nHas acabado todos los niveles.")
         btnExaminer.place_forget()
@@ -92,7 +92,7 @@ correccion.config(font=("Arial",8))
 correccion.place(x=400,y=530,height=150,width=400)
 btnNext = ttk.Button(raiz, text='SIGUIENTE', command=siguiente)
 btnNext.place(x=550,y=380)
-btnNext.place_forget()
+#btnNext.place_forget()
 
 
 raiz.configure(bg = 'lightblue')

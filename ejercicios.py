@@ -47,14 +47,12 @@ horas = int(input("Cuantas horas ha trabajado: "))
 if horas == 40:
     print("No tiene pago de horas extras")
 else:
-    horasExtras = horas-40
-    print("Ha trabajado ",horasExtras," de horas extras")
-    print("Su pago es de: ",horasExtras*2)
+    print("Ha trabajado ",horas-40," de horas extras")
+    print("Su pago es de: ",(horas-40)*2)
 
 #Ejercicio 7
 def area(radio):
-    area = radio*3.14159
-    print("El área del circulo es: ",area)
+    print("El área del circulo es: ",radio*3.14159)
 
 #Ejercicio 8
 def division(num1,num2):
@@ -64,12 +62,12 @@ def division(num1,num2):
         return division
 
 #Ejercicio 9
-if 19%2 == 0:
+if 19%2 is 0:
     print("No es numero primo")
 else:
     print("Si es numero primo")
 
 #Ejercicio 10
-def append(list,element):
+def agregar(list,element):
     list.append(element)
     return list

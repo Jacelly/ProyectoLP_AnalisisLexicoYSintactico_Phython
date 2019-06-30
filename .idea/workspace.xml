@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a0e69c-3388-4ca8-b17d-5f171a6674a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.~lock.EduPython.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EduPython.docx" beforeDir="false" afterPath="$PROJECT_DIR$/EduPython.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LEXICO_PYTHON.py" beforeDir="false" afterPath="$PROJECT_DIR$/LEXICO_PYTHON.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SINTACTICO_PYTHON.py" beforeDir="false" afterPath="$PROJECT_DIR$/SINTACTICO_PYTHON.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.out" beforeDir="false" afterPath="$PROJECT_DIR$/parser.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parsetab.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsetab.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,33 +15,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejercicios.py">
+        <entry file="file://$PROJECT_DIR$/Interfaz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="66" selection-start-line="66" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="166">
+              <caret line="92" column="41" lean-forward="true" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LEXICO_PYTHON.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SINTACTICO_PYTHON.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="551" lean-forward="true" selection-start-line="551" selection-end-line="551" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
+        <entry file="file://$PROJECT_DIR$/ejercicios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="235">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="61" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -53,13 +63,29 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>prueba1</find>
-      <find>prueba2</find>
       <find>simplecomilla</find>
       <find>dobleco</find>
-      <find>expresion</find>
-      <find>variable</find>
       <find>%</find>
+      <find>def</find>
+      <find>funcion</find>
+      <find>expr_fun</find>
+      <find>asignacion</find>
+      <find>punto</find>
+      <find>prueba2</find>
+      <find>codigo</find>
+      <find>append</find>
+      <find>print</find>
+      <find>expr_pr</find>
       <find>if</find>
+      <find>prueba16</find>
+      <find>expr_funcion</find>
+      <find>param</find>
+      <find>expresion</find>
+      <find>asignac</find>
+      <find>variable</find>
+      <find>asignacio</find>
+      <find>asigna</find>
+      <find>error</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,13 +95,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/ejercicios.py" />
-        <option value="$PROJECT_DIR$/LEXICO_PYTHON.py" />
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
         <option value="$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
-        <option value="$PROJECT_DIR$/SINTACTICO_PYTHON.py" />
-        <option value="$PROJECT_DIR$/Interfaz.py" />
         <option value="$PROJECT_DIR$/ejerciciosPropuestos.py" />
         <option value="$PROJECT_DIR$/ejercicios.py" />
+        <option value="$PROJECT_DIR$/LEXICO_PYTHON.py" />
+        <option value="$PROJECT_DIR$/SINTACTICO_PYTHON.py" />
+        <option value="$PROJECT_DIR$/Interfaz.py" />
       </list>
     </option>
   </component>
@@ -100,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,12 +138,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/software_dev/ProyectoLP_AnalisisLexicoYSintactico_Phython" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -248,8 +274,8 @@
       <list>
         <item itemvalue="Python.Interfaz" />
         <item itemvalue="Python.ejercicios" />
-        <item itemvalue="Python.SINTACTICO_PYTHON" />
         <item itemvalue="Python.LEXICO_PYTHON" />
+        <item itemvalue="Python.SINTACTICO_PYTHON" />
         <item itemvalue="Python.SINTACTICO_PYTHON (2)" />
       </list>
     </recent_temporary>
@@ -275,7 +301,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32561985" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28760332" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,57 +316,63 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LEXICO_PYTHON.py">
+    <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="134" selection-end-column="63" />
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py" />
-    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py" />
-    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/ejercicios.py" />
+    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/ejercicios.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/SINTACTICO_PYTHON.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/ProyectoLenguajes/LEXICO_PYTHON.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LEXICO_PYTHON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parsetab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SINTACTICO_PYTHON.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="475" column="20" selection-start-line="475" selection-start-column="20" selection-end-line="475" selection-end-column="20" />
+        <state relative-caret-position="15">
+          <caret line="551" lean-forward="true" selection-start-line="551" selection-end-line="551" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parsetab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="66" selection-start-line="66" selection-end-line="69" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interfaz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="166">
+          <caret line="92" column="41" lean-forward="true" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejerciciosPropuestos.py">
+    <entry file="file://$PROJECT_DIR$/ejercicios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="72" />
+        <state relative-caret-position="235">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>

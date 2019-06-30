@@ -2,6 +2,8 @@ import ply.yacc as yacc
 import ply.lex as lex
 import LEXICO_PYTHON
 
+errores = []
+
 tokens = LEXICO_PYTHON.tokens
 
 # resultado del analisis
@@ -440,6 +442,8 @@ def p_expr_print(t): #OK
         t[0] = t[3]
     elif (len(t) == 7 ):
         t[0] = (t[3], t[5])
+    elif(len(t)== 9):
+        t[0] = (t[3],t[5],t[7])
 
 def p_expr_append(t): #OK
     '''
@@ -521,9 +525,11 @@ def p_error(t):
     if t:
         resultado = "Error sintactico de tipo {} en el valor {}".format( str(t.type),str(t.value))
         print(resultado)
+        errores.append(resultado)
     else:
         resultado = "Error sintactico {}".format(t)
         print(resultado)
+        errores.append(resultado)
     resultado_gramatica.append(resultado)
 
 # INTANCIAMOS EL ANALIZADOR SINTACTICO
@@ -546,6 +552,7 @@ def analisisLexicof(texto):
 
 def analisisSintacticof(texto):
     cadena = analisisLexicof(texto)
+
     resultado = parser.parse(texto)
     if resultado:
         print(resultado)

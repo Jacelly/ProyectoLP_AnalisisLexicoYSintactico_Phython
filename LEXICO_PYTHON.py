@@ -43,7 +43,7 @@ tokens = [
 #PALABRAS RESERVADAS
 
 def t_VARIABLE(t):  #OK
-    r'[a-zA-Z_][a-zA-Z_0-9]*'
+    r'[a-zA-Z_]+[a-zA-Z_0-9]'
     t.type = palabrasReservadas.get(t.value, 'VARIABLE')
     return t
 
